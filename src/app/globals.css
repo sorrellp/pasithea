@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body,
+html {
+  height: 100%;
+}
+
+.copilotKitButton.copilotKitButton {
+  width: 5rem;
+  height: 5rem;
+}
