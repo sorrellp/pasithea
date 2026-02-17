@@ -9,8 +9,7 @@ import { NextRequest } from "next/server";
 
 const github = createOpenAI({
   baseURL: "https://models.inference.ai.azure.com",
-  apiKey: process.env.GITHUB_TOKEN,
-  compatibility: "compatible",
+  apiKey: process.env.GITHUB_TOKEN
 });
 
 const agent = new BuiltInAgent({
