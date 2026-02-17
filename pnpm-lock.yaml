@@ -26,6 +26,9 @@ importers:
       '@copilotkit/runtime':
         specifier: 1.50.0
         version: 1.50.0(97e491f4527119129a73ea68f3131801)
+      '@copilotkit/shared':
+        specifier: 1.50.0
+        version: 1.50.0
       '@copilotkitnext/agent':
         specifier: ^1.51.3
         version: 1.51.4(@cfworker/json-schema@4.1.1)
