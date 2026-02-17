@@ -5,12 +5,6 @@ main = ".open-next/worker.js"
 compatibility_date = "2025-04-01"
 compatibility_flags = ["nodejs_compat"]
 
-# Exclude @vercel/og wasm files (OG image generation, not used)
-[[rules]]
-type = "CompiledWasm"
-globs = ["**/*.wasm"]
-fallthrough = false
-
 [vars]
 # Non-secret env vars go here
 
